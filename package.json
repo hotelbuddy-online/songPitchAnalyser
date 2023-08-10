@@ -1,0 +1,7 @@
+{
+  "name": "song-pitch-analyser",
+  "dependencies": {
+    "lamejs": "^1.2.1",
+    "wav-decoder": "^1.3.0"
+  }
+}
