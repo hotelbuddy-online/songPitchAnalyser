@@ -1,6 +1,6 @@
-const musicAnalyzer = require('./musicAnalyzerModule');
+const musicAnalyzer = require('./musicAnalyzerModule.mjs');
 
-const filePath = './path_to_your_song.wav';
+const filePath = './vocals.mp3';
 const bpm = 120; // for example
 const startTime = 0; // if you want to set another start time, change this
 

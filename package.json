@@ -1,7 +1,11 @@
 {
   "name": "song-pitch-analyser",
   "dependencies": {
+    "audio-decode": "^2.1.4",
+    "fft": "github:auroranockert/fft.js",
+    "fft-js": "^0.0.12",
     "lamejs": "^1.2.1",
+    "wav": "^1.0.2",
     "wav-decoder": "^1.3.0"
   }
 }
