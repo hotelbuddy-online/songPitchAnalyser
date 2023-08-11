@@ -5,7 +5,7 @@ import decodeAudio from "audio-decode";
 // import wav from 'wav-decoder';
 import PitchAnalyzer from "./pitch.js";
 
-async function PitchAnalyzer(filePath) {
+async function analyzeSong(filePath) {
   try {
     let audioBuffer = await decode(buffer);
     const { samples, sampleRate } = mp3Decoder.decode();
@@ -69,4 +69,4 @@ async function PitchAnalyzer(filePath) {
   }
 }
 
-export default PitchAnalyzer;
+export default analyzeSong;
